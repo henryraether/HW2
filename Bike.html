@@ -1,28 +1,41 @@
 <!DOCTYPE html>
 <head>
     <title>Bikes we offer</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1> We Sell Various bikes. Call 123-456-7899 for exact prices. See a full list below:</h1>
-    <p>Price ranges: </p>
-    <ul> 
-        <li>1. Road: $2,000 - $8,000</li>
-        <li>2. Gravel: $1,500 - $7,000</li>
-        <li>3. MTB: $3,000 - $9,000</li>
-        <li>4. Fat: $2,500 - $4,000 </li>
-    </ul>
+    <div>
+    <div class="p-4">
+        <h1 class="text-center text-4xl p-8 text-green-800 "> We Sell Various bikes. Call 123-456-7899 for exact prices. See a full list below:</h1>
+        <p>Price ranges: </p>
+        <ul> 
+            <li>1. Road: $2,000 - $8,000</li>
+            <li>2. Gravel: $1,500 - $7,000</li>
+            <li>3. MTB: $3,000 - $9,000</li>
+            <li>4. Fat: $2,500 - $4,000 </li>
+        </ul>
+    </div>
+    <div class="md:flex mt-10 p-2">
+        <div class="w-1/4 p-4 border text-center">
+        <p>1. Road bikes </p>
+        <p><img src="Road Bike.jpg"></p>
+        </div>
 
-    <p>1. Road bikes </p>
-    <p><img src="Road Bike.jpg"></p>
+        <div class="w-1/4 p-4 border text-center">
+        <p>2. Gravel bikes </p>
+        <p><img src="Gravel Bike.jpg"></p>
+        </div>
 
-    <p>2. Gravel bikes </p>
-    <p><img src="Gravel Bike.jpg"></p>
+        <div class="w-1/4 p-4 border text-center">
+        <p>3. Mountain bikes</p>
+        <p><img src="MTB.jpg"></p>
+        </div>
 
-    <p>3. Mountain bikes</p>
-    <p><img src="MTB.jpg"></p>
-
-    <p>4. Fat bikes </p>
-    <p><img src="Fat Bike.jpg"></p>
-
+        <div class="w-1/4 p-4 border text-center">
+        <p>4. Fat bikes </p>
+        <p><img src="Fat Bike.jpg"></p>
+        </div>
+    </div>
+</div>
 </body>
 </html>
